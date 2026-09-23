@@ -1,12 +1,13 @@
-# Dependencies
+# Backend & Frontend Dependencies
 node_modules/
+**/node_modules/
+
+# Build outputs
 dist/
 build/
+backend/dist/
+frontend/dist/
 
 # Environment variables
 .env
-
-# IDE and OS files
-.DS_Store
-.vscode/
-.idea/
+**/ .env
